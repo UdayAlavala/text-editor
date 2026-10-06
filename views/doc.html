@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOC</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="document-name">
+            <input type="text" value="Untitled Document">
+        </div>
+
+        <div class="header-action">
+            <button class="save-button">Save</button>
+            
+            <div class="share-container">
+                <button class="share-button">Share</button>
+
+                <div class="share-dropdown">
+                    <button>Copy Link</button>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav class="toolbar">
+        <button class="format-button">
+            <strong>B</strong>
+        </button>
+
+        <button class="format-button">
+            <u>U</u>
+        </button>
+
+        <button class="format-button">
+            <em>I</em>
+        </button>
+
+        <select class="font-family">
+
+            <option value="Arial">
+                Arial
+            </option>
+
+            <option value="Times New Roman">
+                Times New Roman
+            </option>
+
+            <option value="Georgia">
+                Georgia
+            </option>
+        </select>
+
+        <select class="font-size">
+
+            <option value="12">
+                12
+            </option>
+
+            <option value="14">
+                14
+            </option>
+
+            <option value="16">
+                16
+            </option>
+
+            <option value="18">
+                18
+            </option>
+
+            <option value="24">
+                24
+            </option>
+
+            <option value="32">
+                32
+            </option>
+
+        </select>
+
+        <select class="heading-style">
+
+            <option value="normal">
+                Normal
+            </option>
+
+            <option value="title">
+                Title
+            </option>
+
+            <option value="heading1">
+                Heading 1
+            </option>
+
+            <option value="heading2">
+                Heading 2
+            </option>
+
+            <option value="heading3">
+                Heading 3
+            </option>
+
+            <option value="heading4">
+                Heading 4
+            </option>
+
+        </select>
+
+        <div>
+            <select class="tabs-section">
+                <option value="Tab-1">
+                    Tab 1
+                </option>
+
+                <option value="">
+                    <button>Add Tab</button>
+                </option>
+            </select>
+         </div>
+
+
+    </nav>
+
+   <main class="main-container">
+
+        <section class="editor-area">
+
+            <div
+                class="document-page"
+                contenteditable="true"
+                placeholder="Type here..."
+            >
+                
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
